@@ -1,0 +1,41 @@
+.custom-navbar {
+    background-color: #26d6c5;
+}
+
+.custom-footer {
+    background-color: #26d6c5;
+}
+
+.text-color {
+    color: black;
+}
+
+.imagen-lateral{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.altura-completa {
+    height: 100vh;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    margin-top: auto;
+}
