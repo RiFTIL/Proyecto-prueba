@@ -25,6 +25,9 @@
           <li class="nav-item"><a class="nav-link" href="{% url 'index' %}">Inicio</a></li>
           <li class="nav-item"><a class="nav-link" href="{% url 'horarios' %}">Horarios</a></li>
           <li class="nav-item"><a class="nav-link active" href="{% url 'contacto' %}">Contáctanos</a></li>
+          {% if user.is_staff %}
+          <li class="nav-item"><a class="nav-link" href="{% url 'admin:index' %}">Administrar Sitio</a></li>
+        {% endif %}
         </ul>
       </div>
     </div>
@@ -49,7 +52,7 @@
             </ul>
         </div>
     </div>
-  </div>
+  </div> 
 </div>
 
 <footer class="custom-footer text-white text-center py-3 mt-5">
