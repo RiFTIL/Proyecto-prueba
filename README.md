@@ -8,6 +8,7 @@ Proyecto web desarrollado con Django para visualizar los horarios y tarifas de l
 * **Tabla de Tarifas:** Precios detallados por tipo de pasajero (Adulto, Adulto Mayor, Escolar).
 * **Filtro Dinámico:** Permite buscar y mostrar únicamente las rutas que parten de un origen seleccionado.
 * **Diseño Responsivo:** Interfaz adaptable a dispositivos móviles y de escritorio gracias a Bootstrap 5.
+* **Panel de Administración:** Interfaz segura y personalizada para que el cliente pueda autogestionar los horarios y tarifas.
 
 ## Tecnologías Utilizadas
 
@@ -22,10 +23,9 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local:
 
 **1. Clonar el repositorio:**
 ```bash
-git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
-cd expresos-de-la-costa
+git clone [https://github.com/RiFTIL/Proyecto-prueba.git](https://github.com/RiFTIL/Proyecto-prueba.git)
+cd Proyecto-prueba
 ```
-*(Reemplaza la URL por la de tu propio repositorio de GitHub)*
 
 **2. Crear y activar un entorno virtual para Mac:**
 
@@ -57,10 +57,10 @@ Este comando llenará las tablas con todos los horarios y tarifas del proyecto u
 python manage.py loaddata initial_data.json
 ```
 
-**8. Ejecutar el servidor de desarrollo:**
+**7. Ejecutar el servidor de desarrollo:**
 ```bash
 python manage.py runserver
 ```
 
-**9. Acceder a la aplicación:**
+**8. Acceder a la aplicación:**
 Abre tu navegador y ve a `http://127.0.0.1:8000`.
